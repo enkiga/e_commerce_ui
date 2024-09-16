@@ -1,10 +1,9 @@
 # E-Commerce Complete App - Flutter UI
 
-```
-Following a youtube tutorial series by The Flutter Way to get the basics of Flutter and Dart. 
-This is to learn how to build a complete e-commerce app, user interface, and user experience as well as to learn
-file structure, state management, and more. 
-```
+Following a youtube tutorial series by The Flutter Way to get the basics of Flutter and Dart.
+This is to learn how to build a complete e-commerce app, user interface, and user experience as well
+as to learn
+file structure, state management, and more.
 
 ### How we went about it:
 
