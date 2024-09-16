@@ -1,4 +1,4 @@
-import 'package:e_commerce_ui/screens/signin_screen/components/body.dart';
+import 'package:e_commerce_ui/screens/sign_in_screen/components/body.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatelessWidget {
@@ -8,8 +8,11 @@ class SignInScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Body(),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Sign In"),
+      ),
+      body: const Body(),
     );
   }
 }

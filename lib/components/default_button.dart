@@ -10,8 +10,8 @@ class DefaultButton extends StatelessWidget {
     required this.press,
   });
 
-  final String text;
-  final Function press;
+  final String? text;
+  final Function? press;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class DefaultButton extends StatelessWidget {
       width: double.infinity,
       height: getProportionateScreenHeight(56),
       child: ElevatedButton(
-        onPressed: press(),
+        onPressed: press as void Function()?,
         style: ElevatedButton.styleFrom(
           backgroundColor: kPrimaryColor,
           shape: RoundedRectangleBorder(
@@ -27,7 +27,7 @@ class DefaultButton extends StatelessWidget {
           ),
           padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
         ),
-        child: Text(text,
+        child: Text(text!,
             style: TextStyle(
               fontSize: getProportionateScreenWidth(18),
               color: Colors.white,

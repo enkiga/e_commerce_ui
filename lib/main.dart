@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: theme(),
-      // home: const SplashScreen(),
       initialRoute: SplashScreen.routeName,
       routes: routes,
     );
