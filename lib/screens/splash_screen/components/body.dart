@@ -1,5 +1,6 @@
 import 'package:e_commerce_ui/constants/size_config.dart';
 import 'package:e_commerce_ui/constants/variables.dart';
+import 'package:e_commerce_ui/screens/signin_screen/signin_screen.dart';
 import 'package:e_commerce_ui/screens/splash_screen/components/splash_content.dart';
 import 'package:flutter/material.dart';
 
@@ -21,15 +22,15 @@ class _BodyState extends State<Body> {
     },
     {
       "text":
-          "We help people connect with store around United State of America",
+          "We help people connect with store \n around United State of America",
       "image": "assets/images/Splash_2.png"
     },
     {
-      "text": "We show the easy way to shop. Just stay at home with us",
+      "text": "We show the easy way to shop.\n Just stay at home with us",
       "image": "assets/images/Splash_3.png"
     },
     {
-      "text": "We show the easy way to shop. Just stay at home with us",
+      "text": "We show the easy way to shop.\n Just stay at home with us",
       "image": "assets/images/Splash_4.png"
     }
   ];
@@ -64,6 +65,7 @@ class _BodyState extends State<Body> {
                 ),
                 child: Column(
                   children: [
+                    const Spacer(),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: List.generate(
@@ -74,7 +76,8 @@ class _BodyState extends State<Body> {
                     ),
                     DefaultButton(
                       text: 'Continue',
-                      press: () {},
+                      press: () =>
+                          Navigator.pushNamed(context, SignInScreen.routeName),
                     ),
                     const Spacer(),
                   ],

@@ -13,7 +13,7 @@ ThemeData theme() {
   );
 }
 
-InputDecorationTheme inputDecorationTheme () {
+InputDecorationTheme inputDecorationTheme() {
   OutlineInputBorder outlineInputBorder = OutlineInputBorder(
     borderRadius: BorderRadius.circular(28),
     borderSide: const BorderSide(color: kPrimaryTextColor),
@@ -40,7 +40,7 @@ TextTheme textTheme() {
 
 AppBarTheme appBarTheme() {
   return const AppBarTheme(
-    color: kAppBarBackgroundColor,
+    color: kBackgroundColor,
     elevation: 0,
     iconTheme: IconThemeData(color: Colors.black),
     systemOverlayStyle: SystemUiOverlayStyle.dark,
