@@ -1,5 +1,6 @@
 import 'package:e_commerce_ui/constants/size_config.dart';
 import 'package:e_commerce_ui/constants/variables.dart';
+import 'package:e_commerce_ui/screens/signin_screen/signin_screen.dart';
 import 'package:e_commerce_ui/screens/splash_screen/components/splash_content.dart';
 import 'package:flutter/material.dart';
 
