@@ -43,7 +43,10 @@ AppBarTheme appBarTheme() {
     color: kBackgroundColor,
     elevation: 0,
     iconTheme: IconThemeData(color: Colors.black),
-    systemOverlayStyle: SystemUiOverlayStyle.dark,
+    systemOverlayStyle: SystemUiOverlayStyle(
+      statusBarColor: kBackgroundColor,
+      statusBarIconBrightness: Brightness.dark,
+    ),
     titleTextStyle: TextStyle(color: Colors.black, fontSize: 18),
     toolbarTextStyle: TextStyle(color: Colors.black, fontSize: 18),
   );

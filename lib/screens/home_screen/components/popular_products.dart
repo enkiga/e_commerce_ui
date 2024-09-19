@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../components/product_card.dart';
 import '../../../constants/size_config.dart';
 import '../../../models/product.dart';
+import '../../details_screen/details_screen.dart';
 
 class PopularProducts extends StatelessWidget {
   const PopularProducts({
@@ -27,8 +28,15 @@ class PopularProducts extends StatelessWidget {
             children: [
               ...List.generate(
                 demoProducts.length,
-                    (index) => ProductCard(
+                (index) => ProductCard(
                   product: demoProducts[index],
+                  press: () => Navigator.pushNamed(
+                    context,
+                    DetailsScreen.routeName,
+                    arguments: ProductDetailsArguments(
+                      product: demoProducts[index],
+                    ),
+                  ),
                 ),
               ),
               SizedBox(
