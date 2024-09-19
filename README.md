@@ -39,10 +39,10 @@ at [The Flutter Way](https://youtube.com/playlist?list=PLxUBb2A_UUy8OlaNZpS2mfL8
 
 ## Photos
 
-![Preview](assets/images/1.png)
+![Preview](assets/screenshots/splash_screen.png)
 ![Preview](assets/images/2.png)
-![Preview](assets/images/3.png)
-![Preview](assets/images/4.png)
-![Preview](assets/images/5.png)
+![Preview](assets/screenshots/sign_up_screen.png)
+![Preview](assets/screenshots/home_screen.png)
+![Preview](assets/screenshots/product_detail_screen.png)
 ![Preview](assets/images/6.png)
 ![Preview](assets/images/7.png)
