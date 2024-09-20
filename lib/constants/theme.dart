@@ -44,7 +44,7 @@ AppBarTheme appBarTheme() {
     elevation: 0,
     iconTheme: IconThemeData(color: Colors.black),
     systemOverlayStyle: SystemUiOverlayStyle(
-      statusBarColor: kBackgroundColor,
+      statusBarColor: Colors.transparent,
       statusBarIconBrightness: Brightness.dark,
     ),
     titleTextStyle: TextStyle(color: Colors.black, fontSize: 18),
