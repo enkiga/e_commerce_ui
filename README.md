@@ -44,5 +44,8 @@ at [The Flutter Way](https://youtube.com/playlist?list=PLxUBb2A_UUy8OlaNZpS2mfL8
 ![Preview](assets/screenshots/sign_up_screen.png)
 ![Preview](assets/screenshots/home_screen.png)
 ![Preview](assets/screenshots/product_detail_screen.png)
-![Preview](assets/images/6.png)
-![Preview](assets/images/7.png)
+![Preview](assets/screenshots/cart_screen.png)
+![Preview](assets/screenshots/profile_screen.png)
+
+## Test the app on your device
+[app-release.apk](build%2Fapp%2Foutputs%2Fflutter-apk%2Fapp-release.apk)
